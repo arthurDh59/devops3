@@ -1,5 +1,5 @@
 #!/bin/sh -l
-
+GITHUB_OUTPUT=${GITHUB_OUTPUT:-/tmp/github_output}
 # Use INPUT_<INPUT_NAME> to get the value of an input
 GREETING="Hello, $INPUT_WHO_TO_GREET!"
 
